@@ -1,4 +1,4 @@
-rm -rf  \
+obsolete="\
 aip_migrate_sermons.php \
 aip_parse_sermons.php \
 aip_set_page_aliases.php \
@@ -35,5 +35,8 @@ typescript \
 uuccsm \
 uuccsm.dir \
 xyzzy-apc.php \
-xyzzy-info.php
+xyzzy-info.php"
+
+#tar -czvf obsolete.tgz $obsolete
+rm -rf $obsolete
 
