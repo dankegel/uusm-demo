@@ -74,6 +74,10 @@ Known issues compared to live site:
 
 a. /user/login/lightbox2 doesn't work (use /user)
 b. /admin/reports/status complains that wkhtmltopdf is unsupported version
-c. Menu items in left sidebar of main page have turds on end
-   (probably some plugin out of date with respect to this version of php)
+c. Menu items in left sidebar of main page have turds on end, e.g.
+   click on Sundays & Services, note square blob at end of line
+   'Small Group Ministry'.
+   (Probably some plugin out of date with respect to this version of php.)
+d. Because .mp3 files were omitted, search results and sermon lists
+   will complain that some content is missing.
 
